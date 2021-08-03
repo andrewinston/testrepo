@@ -1,0 +1,123 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "eefQAUWxZbPSHn3rmeQcFz",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "--vcWZYpSpcY",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "eefQAUWxZbPSHn3rmeQcFz",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "eVx4kC_2No",
+          "name": "Login",
+          "type": "managed",
+          "projectId": "eefQAUWxZbPSHn3rmeQcFz",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicLogin.tsx",
+          "importSpec": {
+            "modulePath": "Login.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicLogin.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "4Z5vc8dbIN",
+          "name": "Dashboard",
+          "type": "managed",
+          "projectId": "eefQAUWxZbPSHn3rmeQcFz",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicDashboard.tsx",
+          "importSpec": {
+            "modulePath": "Dashboard.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicDashboard.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "om2k4TuN64y",
+          "name": "Checkbox",
+          "type": "managed",
+          "projectId": "eefQAUWxZbPSHn3rmeQcFz",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicCheckbox.tsx",
+          "importSpec": {
+            "modulePath": "Checkbox.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicCheckbox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "checkbox"
+        }
+      ],
+      "icons": [
+        {
+          "id": "AECxGRKQt6a",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "TidyE3HpZxK",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "CHzvCQhY9Tw",
+          "name": "CheckIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Check.tsx"
+        },
+        {
+          "id": "ug9unSuW-Fb",
+          "name": "IndeterminateIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Indeterminate.tsx"
+        }
+      ],
+      "images": [],
+      "codeComponents": [],
+      "projectApiToken": "ykcIVmbfhCoepKDoAsxotqjLMZ7IiUM3dFAfmsIyDXRoducFqC65bQC9QS146foytU9HOqXpC7QIsQJgnOA"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "o_cbJ1X4voGc",
+        "name": "Screen",
+        "projectId": "eefQAUWxZbPSHn3rmeQcFz",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.158",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.158/dist/plasmic.schema.json"
+}
